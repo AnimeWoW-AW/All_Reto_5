@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reto_05</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!--Las siguientes lineas me permiten llamar el folder local-->
+        <script type="text/javascript" src="js/reportes.js"></script>
+
+    </head>
+    <body>
+        <h1> Reportes Reto 05 </h1>
+
+        <button onclick="traerReporteStatus()"> Generar Reporte Status Reservas </button>
+        <div id="resultadoStatus"></div>
+
+        <input type="date" id="RstarDate" placeholder="descripcion">
+        <input type="date" id="RdevolutionDate" placeholder="descripcion">
+        <button onclick="traerReporteDate()"> Generar Reporte por fecha </button>
+        <div id="resultadoDate"></div>
+
+        <button onclick="traerReporteClientes()"> Generar Reporte Clientes y Cantidad de reservas por cliente </button>
+        <div id="resultadoClientes"></div>
+
+
+
+
+
+
+        
+    </body>
+</html>
+
+
+
